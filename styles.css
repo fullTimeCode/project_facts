@@ -18,9 +18,20 @@ html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+@font-face {
+  font-family: 'Inter';
+  src: url('./Inter/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Dancing';
+  src: url('./Dancing_Script/DancingScript-VariableFont_wght.ttf') format('truetype');
+}
+
 body {
   background: var(--bgClr);
   color: var(--textClr);
+  font-family: Inter;
 }
 
 .navbar {
@@ -46,9 +57,10 @@ main.main {
 }
 
 .main--list > li {
+  font-family: Dancing;
   list-style: disc inside;
   line-height: 1.2;
-  font-size: 1.7rem;
+  font-size: 3.7rem;
   margin-top: 1.5rem;
   padding: 0;
   padding: auto;
