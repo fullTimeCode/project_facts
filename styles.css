@@ -30,8 +30,11 @@ html {
 
 body {
   background: var(--bgClr);
+  background-image: url('/react-icon-large.png');
+  background-repeat: no-repeat;
+  background-position: right 60%;
   color: var(--textClr);
-  font-family: Inter;
+  font-family: Inter, sans-serif;
 }
 
 .navbar {
@@ -51,9 +54,6 @@ main.main {
   margin: 10vh auto;
   max-width: 70%;
   width: 30%;
-  background-image: url('/react-icon-large.png');
-  background-repeat: no-repeat;
-  background-position: right 75%;
 }
 
 .main--list > li {
